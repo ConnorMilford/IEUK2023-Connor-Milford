@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova Semibold','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.top-bar {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2rem;
+    height: 20px;
+}
+
+.navs {
+    height: 80px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.title {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+
+}
+
+.hero-container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.hero-title{
+    padding-top:  100px;
+}
+
+.facts-list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    list-style-type: none;
+}
+
+.hero p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container p {
+    font-size: 20px;
+}
+
+.button {
+    border: black;
+    color: #0c6013;
+    padding: 20px 34px;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    cursor: pointer
+}
+
+.image {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0rem 2rem;
+    
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.solutions-header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    padding-bottom: 10px;
+}
+
+.solutions p {
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.contact-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact-header {
+    padding-top: 100px;
+}
+
+.contact-list {
+    margin: 0 auto;
+    display: table;
+}
+
+.feasibility-header {
+    padding-top: 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.feasibility p {
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.feasibility ol {
+    padding-left: 400px;
+}
+
